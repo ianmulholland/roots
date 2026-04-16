@@ -1,65 +1,70 @@
-import Image from "next/image";
+import Link from 'next/link'
+import { DEMO_PEOPLE, DEMO_RELATIONSHIPS } from '@/lib/demo-data'
+import ForceGraph from '@/components/ForceGraph'
 
 export default function Home() {
+  const people = DEMO_PEOPLE
+  const relationships = DEMO_RELATIONSHIPS
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div style={{ minHeight: 'calc(100vh - 57px)', display: 'flex', flexDirection: 'column' }}>
+
+      {/* Hero */}
+      <div style={{ padding: '64px 24px 40px', textAlign: 'center', maxWidth: '640px', margin: '0 auto' }}>
+        <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '16px', fontWeight: 600 }}>
+          Mulholland · Walker · Freses
+        </p>
+        <h1 style={{ fontSize: 'clamp(2.2rem, 5vw, 3.5rem)', fontWeight: 800, lineHeight: 1.1, color: 'var(--fg)', marginBottom: '16px', letterSpacing: '-0.02em' }}>
+          Four families.<br />
+          <span style={{ color: 'var(--accent)' }}>One story.</span>
+        </h1>
+        <p style={{ color: 'var(--muted)', fontSize: '1rem', lineHeight: 1.6 }}>
+          From Berlin and Waldeck to Chicago and Boston — explore the people who made your family.
+        </p>
+      </div>
+
+      {/* Force graph */}
+      <div style={{
+        flex: 1,
+        margin: '0 24px 32px',
+        borderRadius: '16px',
+        border: '1px solid var(--border)',
+        background: 'var(--surface)',
+        position: 'relative',
+        minHeight: '440px',
+        overflow: 'hidden',
+      }}>
+        <div style={{
+          position: 'absolute', top: '16px', left: '20px',
+          fontSize: '0.7rem', letterSpacing: '0.12em', color: 'var(--muted)', textTransform: 'uppercase',
+        }}>
+          Click a node · Drag to explore
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+        <ForceGraph people={people} relationships={relationships} />
+      </div>
+
+      {/* Quick links */}
+      <div style={{ display: 'flex', gap: '12px', padding: '0 24px 48px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        {[
+          { href: '/tree', label: 'Family Tree' },
+          { href: '/map', label: 'Ancestor Map' },
+          { href: '/people', label: 'All Ancestors' },
+        ].map(({ href, label }) => (
+          <Link key={href} href={href} style={{
+            padding: '10px 24px',
+            borderRadius: '8px',
+            border: '1px solid var(--border-strong)',
+            background: 'var(--surface)',
+            color: 'var(--fg)',
+            fontSize: '0.85rem',
+            fontWeight: 500,
+            letterSpacing: '0.02em',
+            transition: 'border-color 0.15s, color 0.15s',
+          }}>
+            {label}
+          </Link>
+        ))}
+      </div>
     </div>
-  );
+  )
 }

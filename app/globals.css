@@ -1,26 +1,74 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #0c0c14;
+  --surface: #13131f;
+  --surface-raised: #1c1c2e;
+  --fg: #e8e8f2;
+  --muted: #6b7280;
+  --accent: #c9a96e;
+  --accent-dim: rgba(201, 169, 110, 0.15);
+  --border: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.14);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet map */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: var(--surface);
+}
+.leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9);
+}
+.leaflet-popup-content-wrapper {
+  background: var(--surface-raised);
+  color: var(--fg);
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.leaflet-popup-tip {
+  background: var(--surface-raised);
+}
+.leaflet-popup-close-button {
+  color: var(--muted) !important;
+}
+
+/* Family tree */
+.rd3t-node circle,
+.rd3t-leaf-node circle {
+  fill: var(--accent);
+  stroke: var(--surface);
+  stroke-width: 3;
+  cursor: pointer;
+  transition: r 0.15s;
+}
+.rd3t-node circle:hover { r: 18px; }
+.rd3t-label__title {
+  fill: var(--fg);
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+.rd3t-label__attributes {
+  fill: var(--muted);
+  font-family: system-ui, sans-serif;
+  font-size: 11px;
+}
+.rd3t-link {
+  stroke: var(--border-strong);
+  stroke-width: 1.5;
+  fill: none;
 }
