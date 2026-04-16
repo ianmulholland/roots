@@ -127,10 +127,12 @@ He came of age during Prohibition and the Depression, and was in his early twent
 
 He is one of two Boston grandparents — the maternal side of Ian and Ross's family — and his roots in the city go back at least to his own parents' generation in the early twentieth century.`,
 
-  // ── Gladys Mildred Walker (1923–) ───────────────────────────────────────
-  '4': `Gladys Mildred Walker was born in Boston in 1923, into the East Boston neighborhood that had shaped her family for at least a generation. East Boston in the early 20th century was a working-class world built around the waterfront — a place of dockworkers and tradesmen, of tight streets and close-knit community life. It was a neighborhood that knew hard times well: Prohibition, the Great Depression, and then the Second World War all arrived in quick succession through her childhood and young adulthood.
+  // ── Gladys Mildred Walker (1925–) ───────────────────────────────────────
+  '4': `Gladys Mildred Smith was born on March 1, 1925, on Cape Sable Island — a small, windswept island at the southwestern tip of Nova Scotia, Canada. She was born into a fishing family that had been on the island since the late 18th century, when New England settlers accepted British land grants after the expulsion of the Acadian people. Her family traced its roots through generations of Cape Sable Island Smiths all the way back to Archelaus Smith, one of the island's founding figures — and through him, to the Mayflower passenger Stephen Hopkins.
 
-She grew up through the Depression, married George Vincent Walker, and raised their daughter Lynn in the Boston area. She lived through the Second World War, the postwar prosperity, the upheavals of the 1960s, the busing crisis that tore Boston apart in the 1970s. Hers is a quintessentially Boston story — a grandmother whose grandchildren (Ian and Ross) represent the full sweep of what America can produce: deep Boston roots on one side, German ancestry from Berlin and Waldeck on the other, and the ancient Frisian bloodline that began, somewhere on the North Sea coast, before recorded history.`,
+She came to Massachusetts and met George Vincent Walker, a Boston man from East Boston, and married him. She became Gladys "Millie" Walker. They raised their daughter Lynn in the Boston area. She was a devoted member of the Methodist faith — the Protestant tradition that had shaped the Cape Sable Island community for generations — and her memorial donations were directed to the Hedding Methodist Campground.
+
+She made a journey that her ancestor Archelaus had made in reverse: he left Massachusetts for Nova Scotia; she left Nova Scotia for Massachusetts. She carried with her the heritage of an island, a fishing family, and — reaching back across the centuries — a Mayflower passenger who had stood on the shores of the New World when it was still barely imaginable.`,
 
   // ── Maxwell Mulholland (1960–) ───────────────────────────────────────────
   '3': `Maxwell Mulholland was born in 1960 in Belmont, Massachusetts, the son of Daniel Mulholland — Chicago-born, Irish-American — and Iris Margarete Frese, Berlin-born, the daughter of a German Lutheran pastor with roots stretching back to seventeenth-century Waldeck. He grew up in Massachusetts during the turbulent decades of the 1960s and 70s: the Kennedy assassination, Vietnam, the civil rights movement, Watergate, the Boston busing crisis. He married Lynn Walker and settled in Winthrop, a small coastal town on a peninsula northeast of Boston, where their sons Ian and Ross were born.
@@ -143,6 +145,52 @@ He is the bridge between the old world and the new — the son who connected the
 She raised two sons there: Ian, born 1991, and Ross, born 1996. Through her, the Walker family's deep Boston roots joined the Mulholland line's transatlantic journey — Chicago, Berlin, Waldeck, the North Sea coast — to produce two young men who are the living culmination of all of it.
 
 Winthrop is barely a mile and a half wide. On a clear day you can see the ocean from almost anywhere. It's about as far from the Frisian Islands — where the ancestors once built dikes against the sea — as it's possible to get. And yet.`,
+
+  // ── Harold "Harry" Walker (c.1890–) — born Burton ───────────────────────
+  '30': `Harold Burton was born into working-class East Boston around 1890, in the dense waterfront neighborhoods built around the harbor trade. At some point in the 1920s, he did something rare and deliberate: he changed his surname. Harold Burton became Harold Walker. He left no documented reason, and no family record explains the choice. The Burton name simply vanished.
+
+The mystery of the name change sits at the center of the Walker family story. Was it a desire for a fresh start? A break from a difficult family history? A marriage, a dispute, an aspiration? Whatever the reason, the decision shaped everything. His son George was raised as George Vincent Walker — and that name would eventually make its way, through Lynn Walker's marriage to Maxwell Mulholland, to Ian and Ross.
+
+Harold married Ida Lewis, of Welsh and English descent, and the two of them built their family in East Boston. The Burtons who might once have been his relatives don't appear in the family story. The Walkers do. He chose that — deliberately, permanently, for reasons we may never know.`,
+
+  // ── Enos Lock Smith (c.1882–) — Cape Sable Island ───────────────────────
+  '32': `Enos Lock Smith was born on Cape Sable Island, Nova Scotia, around 1882, into the tight-knit fishing community that had occupied the island since the late 18th century. His first name "Enos" preserved his mother Bertha's maiden name across generations — on Cape Sable Island, where the same families had intermarried for over a century, naming traditions were one way to keep track of the threads.
+
+He was a fisherman, as the island's economy demanded. Cape Sable Island sits at the southwestern tip of Nova Scotia, exposed to the Atlantic from three sides — an austere, beautiful, demanding place where the sea was livelihood and constant presence. The community was Protestant and Methodist, deeply rooted in its New England origins: the families who had sailed north from Massachusetts and Cape Cod two generations before Enos Lock was born.
+
+His daughter Gladys Mildred was born on March 1, 1925. She would eventually leave the island for Massachusetts, where she married George Vincent Walker and raised Lynn. Through Enos Lock, the Cape Sable Island fishing tradition — and through it, the Mayflower — entered the Mulholland family tree.`,
+
+  // ── Joshua Smith (c.1850–) — Cape Sable Island ──────────────────────────
+  '33': `Joshua Smith was born on Cape Sable Island, Nova Scotia, around 1850, part of the long chain of Smith family fishermen who had worked the waters off the southwest tip of Nova Scotia for generations. He is part of a line that stretches back to Archelaus Smith, one of the island's founding settlers in the late 18th century, and forward to Gladys Mildred Smith, born there in 1925.
+
+He married Bertha Enos — and when their son was born, they named him Enos Lock, preserving her family name as a given name for the next generation. This practice of using a mother's maiden name as a child's first name was common in the Cape Sable Island community, where the overlapping family trees required careful tracking and the preservation of lineage through naming was a point of pride.
+
+Cape Sable Island in the mid-to-late 19th century was a world apart from the American mainland: a small Protestant fishing community, shaped by its New England origins and its Maritime isolation, holding on to its traditions while the industrial world transformed the continent around it.`,
+
+  // ── Archelaus Smith (1734–1821) — Cape Sable Island founder ─────────────
+  '37': `Archelaus Smith was born in Massachusetts in 1734, a generation before the American Revolution. In the 1760s, following the British expulsion of the Acadian people from Nova Scotia — one of the largest forced deportations in North American history, displacing ten thousand people from their ancestral lands — the British Crown offered land grants to New England Protestants willing to resettle the vacated territory. Archelaus was among those who accepted.
+
+He sailed to Cape Sable Island, at the southwestern tip of Nova Scotia, and became one of its founding families. The island had been Acadian and Mi'kmaq territory; it became a New England Protestant outpost. Archelaus built a life there — as a fisherman, a farmer, a community patriarch — in a place defined by the Atlantic, by fog and wind, by hard seasons and the rewards they brought.
+
+By the time he died in 1821, at the age of eighty-seven, he had 97 grandchildren and 219 great-grandchildren. The number is almost incomprehensible — a testament to the founding generation's prolific families and to the way a single man's decision to sail to a windswept island can ripple forward through time. Through his descendants the Cape Sable Island Smith family would send Gladys Mildred Smith to Massachusetts, where she became Gladys "Millie" Walker, grandmother of Ian and Ross.
+
+He carried with him, through the Hopkins and Smith lines, the heritage of the Mayflower. He was a man of the New World's third generation — far enough from Plymouth to have forgotten what it cost, close enough to still be shaped by it.`,
+
+  // ── Giles Hopkins (c.1607–1690) — Mayflower's child ────────────────────
+  '40': `Giles Hopkins was born around 1607 — possibly during the Mayflower voyage itself, or in its immediate aftermath. His father Stephen was one of the most experienced passengers aboard, and Giles grew up in Plymouth Colony during its most precarious years: the harsh first winters, the diplomatic negotiations with the Wampanoag, the slow, hard establishment of a viable settlement at the edge of a continent that must have seemed impossibly vast.
+
+He came of age in Plymouth and later settled in Eastham, at the outer elbow of Cape Cod — part of the wave of second-generation colonists who pushed outward as Plymouth stabilized and grew. He lived into old age, dying around 1690, having seen the colony transform from a desperate foothold into a functioning society.
+
+His daughter Mary married Samuel Smith, and their descendants carried the Smith name outward — some of them, generations later, to Nova Scotia when the British offered land grants on the formerly Acadian shores. Giles represents the second generation of the Mayflower story: the children who grew up in the colony their parents had gambled everything to found, who knew no other world. He is your great-great-great-great-great-great-great-grandfather, give or take a generation.`,
+
+  // ── Stephen Hopkins (c.1581–1644) — Mayflower 1620 ─────────────────────
+  '41': `Stephen Hopkins lived one of the most extraordinary lives of the colonial era. Born around 1581 in England, his story begins not with the Mayflower but eleven years earlier, on the Sea Venture — a flagship of the Virginia Company that was wrecked in a hurricane off Bermuda in 1609. Hopkins survived the wreck. He spent months on the island while the survivors built two new vessels from the wreckage. He was court-martialed for attempted mutiny after he argued — correctly, as it happened — that the shipwreck had voided the crew's obligations to their contract. He was pardoned, made it to Jamestown, Virginia, and gained firsthand experience of the New World that set him apart from almost everyone who would follow.
+
+In 1620, he sailed on the Mayflower. He was one of only two passengers with prior New World experience. He brought his wife and children, including his young son Giles. He signed the Mayflower Compact. He helped negotiate the 1621 treaty with the Wampanoag chief Massasoit — a crucial piece of diplomacy that helped Plymouth Colony survive when survival was far from certain. He built a life in Plymouth, ran a tavern, was fined several times for various infractions, and died there in 1644.
+
+The Sea Venture wreck, with its miraculous survival and those long months stranded in Bermuda, is widely believed to have inspired Shakespeare's "The Tempest." If so, one of Ian and Ross's ancestors — a man who had been to Bermuda, to Jamestown, to Plymouth — helped plant the seed of one of the great works of English literature.
+
+He is a confirmed ancestor of tens of millions of living Americans. Through his son Giles, through Mary Hopkins and Samuel Smith, through the long chain of Cape Sable Island fishermen, through Gladys Mildred Smith and Gladys "Millie" Walker and Lynn Walker Mulholland, he is your ancestor too. The distance between the Sea Venture wreck of 1609 and Winthrop, Massachusetts in 1991 is four hundred years and ten generations. Not very far at all.`,
 
   // ── Chris Mulholland (1958–) ─────────────────────────────────────────────
   '9': `Chris Mulholland was born in 1958, the eldest child of Dan and Iris Margarete Mulholland. He is Ian's uncle — and he is also the person most responsible for this family history existing at all.

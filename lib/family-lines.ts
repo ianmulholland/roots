@@ -1,5 +1,5 @@
 // Maps each person ID to their primary family line
-export const FAMILY_LINE: Record<string, 'mulholland' | 'frese' | 'walker'> = {
+export const FAMILY_LINE: Record<string, 'mulholland' | 'frese' | 'walker' | 'smith'> = {
   // Frese / Freisen line (German, Waldeck)
   '1':  'frese',   // Iris Margarete — born Frese, bridges both lines
   '17': 'frese',   // Wilhelm Friederich Frese
@@ -16,10 +16,24 @@ export const FAMILY_LINE: Record<string, 'mulholland' | 'frese' | 'walker'> = {
   '28': 'frese',   // Johann Conrad Freisen
   '29': 'frese',   // Anna Margarethe Hölscher
 
-  // Walker line (Boston, Massachusetts)
-  '4':  'walker',  // Gladys Mildred Walker
+  // Walker line (East Boston, Massachusetts)
   '5':  'walker',  // George Vincent Walker
   '6':  'walker',  // Lynn — born Walker, married Mulholland
+  '30': 'walker',  // Harold "Harry" Walker (born Burton)
+  '31': 'walker',  // Ida Lewis
+
+  // Smith line (Cape Sable Island, Nova Scotia → Mayflower)
+  '4':  'smith',   // Gladys Mildred — born Smith, Cape Sable Island
+  '32': 'smith',   // Enos Lock Smith
+  '33': 'smith',   // Joshua Smith
+  '34': 'smith',   // Bertha Enos
+  '35': 'smith',   // Thomas Smith
+  '36': 'smith',   // James Smith Sr
+  '37': 'smith',   // Archelaus Smith (1734–1821) — Cape Sable founder
+  '38': 'smith',   // Samuel Smith — Eastham, Cape Cod
+  '39': 'smith',   // Mary Hopkins — daughter of Giles
+  '40': 'smith',   // Giles Hopkins — Mayflower passenger's son
+  '41': 'smith',   // Stephen Hopkins — Mayflower 1620
 
   // Mulholland line (Irish-American)
   '2':  'mulholland',  // Dan
@@ -39,7 +53,8 @@ export const FAMILY_LINE: Record<string, 'mulholland' | 'frese' | 'walker'> = {
 export const LINE_COLORS = {
   mulholland: '#e07b72', // warm rose — Irish
   frese:      '#6baed6', // steel blue — German
-  walker:     '#74c476', // sage green — Boston
+  walker:     '#74c476', // sage green — East Boston
+  smith:      '#e6ac4f', // amber — Nova Scotia / Mayflower
   unknown:    '#c9a96e', // gold fallback
 } as const
 
@@ -47,6 +62,7 @@ export const LINE_LABELS = {
   mulholland: 'Mulholland',
   frese:      'Frese',
   walker:     'Walker',
+  smith:      'Smith',
   unknown:    '',
 } as const
 

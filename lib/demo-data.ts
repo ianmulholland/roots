@@ -49,9 +49,11 @@ export const DEMO_PEOPLE: Person[] = [
     death_year: null, death_place: null, photo_url: null, notes: 'Maternal grandfather.', created_at: '',
   },
   {
-    id: '4', first_name: 'Gladys Mildred', last_name: 'Walker', birth_year: 1923,
-    birth_place: 'Boston, Massachusetts, USA', birth_lat: 42.3601, birth_lng: -71.0589,
-    death_year: null, death_place: null, photo_url: null, notes: 'Maternal grandmother.', created_at: '',
+    id: '4', first_name: 'Gladys Mildred', last_name: 'Walker', birth_year: 1925,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Born Gladys Mildred Smith on Cape Sable Island, Nova Scotia. Maternal grandmother. Married George Vincent Walker and eventually settled in Massachusetts. Known to the family as "Millie." Methodist faith; memorial donations directed to the Hedding Methodist Campground.',
+    created_at: '',
   },
 
   // ── DAN'S SIBLINGS (Ian's aunts & uncle) ─────────────────────────────────
@@ -207,6 +209,105 @@ export const DEMO_PEOPLE: Person[] = [
     notes: 'Married Johann Conrad Freisen on 3 May 1767 in Westheim.',
     created_at: '',
   },
+
+  // ── GEORGE WALKER'S PARENTS (East Boston) ────────────────────────────────
+  {
+    id: '30', first_name: 'Harold', last_name: 'Walker', birth_year: 1890,
+    birth_place: 'East Boston, Massachusetts, USA', birth_lat: 42.3784, birth_lng: -71.0327,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'George Vincent Walker\'s father. Born Harold Burton; changed his surname to Walker at some point in the 1920s for reasons that remain entirely undocumented — one of the enduring mysteries of the family. A working-class East Boston man of the waterfront generation.',
+    created_at: '',
+  },
+  {
+    id: '31', first_name: 'Ida', last_name: 'Lewis', birth_year: 1893,
+    birth_place: 'East Boston, Massachusetts, USA', birth_lat: 42.3784, birth_lng: -71.0327,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'George Vincent Walker\'s mother. Of Welsh and English descent, part of the working-class East Boston community built around the harbor and shipyards.',
+    created_at: '',
+  },
+
+  // ── GLADYS'S PARENTS (Cape Sable Island, Nova Scotia) ────────────────────
+  {
+    id: '32', first_name: 'Enos Lock', last_name: 'Smith', birth_year: 1882,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Father of Gladys Mildred Smith (later Walker). Born on Cape Sable Island into the fishing community founded by New England settlers in the late 18th century. His first name "Enos" preserved his mother Bertha\'s maiden name across generations — a common Cape Sable Island tradition.',
+    created_at: '',
+  },
+
+  // ── ENOS LOCK SMITH'S PARENTS ─────────────────────────────────────────────
+  {
+    id: '33', first_name: 'Joshua', last_name: 'Smith', birth_year: 1850,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Father of Enos Lock Smith. A Cape Sable Island fisherman, part of the extended Smith family that had occupied the island since Archelaus Smith\'s founding settlement in the late 18th century.',
+    created_at: '',
+  },
+  {
+    id: '34', first_name: 'Bertha', last_name: 'Enos', birth_year: 1857,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Mother of Enos Lock Smith. Born Bertha Enos; married Joshua Smith. Her Enos family name was carried forward as a given name for her son — a tradition of preserving maternal surnames in the naming of children, common in the island community.',
+    created_at: '',
+  },
+
+  // ── SMITH LINE — CAPE SABLE ISLAND ───────────────────────────────────────
+  {
+    id: '35', first_name: 'Thomas', last_name: 'Smith', birth_year: 1820,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Father of Joshua Smith. Part of the Cape Sable Island Smith family, descendants of Archelaus Smith who settled the island around 1760.',
+    created_at: '',
+  },
+  {
+    id: '36', first_name: 'James', last_name: 'Smith', birth_year: 1790,
+    birth_place: 'Cape Sable Island, Nova Scotia, Canada', birth_lat: 43.4833, birth_lng: -65.6167,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Father of Thomas Smith. Son of Archelaus Smith, the patriarch of the Cape Sable Island fishing community. His generation was among the first born on the island after the founding settlement.',
+    created_at: '',
+  },
+
+  // ── ARCHELAUS SMITH (1734–1821) — Cape Sable Island founder ───────────────
+  {
+    id: '37', first_name: 'Archelaus', last_name: 'Smith', birth_year: 1734,
+    birth_place: 'Massachusetts, USA', birth_lat: 41.8781, birth_lng: -70.0,
+    death_year: 1821, death_place: 'Cape Sable Island, Nova Scotia, Canada',
+    photo_url: null,
+    notes: 'One of the founding settlers of Cape Sable Island, Nova Scotia. Born in Massachusetts in 1734; accepted a British land grant after the expulsion of the Acadian people and sailed to Cape Sable Island. By his death in 1821 at age 87, he had 97 grandchildren and 219 great-grandchildren. His ancestry traces back — through the Mayflower — to Stephen Hopkins, the Plymouth Colony settler who survived the 1609 Sea Venture shipwreck.',
+    created_at: '',
+  },
+
+  // ── MAYFLOWER LINE — Hopkins/Smith ───────────────────────────────────────
+  {
+    id: '38', first_name: 'Samuel', last_name: 'Smith', birth_year: 1660,
+    birth_place: 'Eastham, Massachusetts, USA', birth_lat: 41.8401, birth_lng: -69.9776,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Cape Cod settler; married Mary Hopkins, daughter of Giles Hopkins (Mayflower passenger). Their descendants, through the Smith line, eventually settled Cape Sable Island, Nova Scotia, becoming the founding family from which Gladys Mildred Smith descended.',
+    created_at: '',
+  },
+  {
+    id: '39', first_name: 'Mary', last_name: 'Hopkins', birth_year: 1638,
+    birth_place: 'Plymouth, Massachusetts, USA', birth_lat: 41.9584, birth_lng: -70.6673,
+    death_year: null, death_place: null, photo_url: null,
+    notes: 'Daughter of Giles Hopkins (Mayflower passenger) and granddaughter of Stephen Hopkins. Married Samuel Smith of Eastham, Cape Cod. Her descendants through the Smith line became the Cape Sable Island fishing family.',
+    created_at: '',
+  },
+  {
+    id: '40', first_name: 'Giles', last_name: 'Hopkins', birth_year: 1607,
+    birth_place: 'Plymouth, Massachusetts, USA', birth_lat: 41.9584, birth_lng: -70.6673,
+    death_year: 1690, death_place: 'Eastham, Massachusetts, USA',
+    photo_url: null,
+    notes: 'Son of Mayflower passenger Stephen Hopkins. Born around 1607, possibly during the voyage itself. Grew up in Plymouth Colony. Later settled in Eastham, Cape Cod. His daughter Mary married Samuel Smith, beginning the Smith line that would eventually reach Cape Sable Island and produce Gladys Mildred Smith.',
+    created_at: '',
+  },
+  {
+    id: '41', first_name: 'Stephen', last_name: 'Hopkins', birth_year: 1581,
+    birth_place: 'Upper Clatford, Hampshire, England', birth_lat: 51.2003, birth_lng: -1.4902,
+    death_year: 1644, death_place: 'Plymouth, Massachusetts, USA',
+    photo_url: null,
+    notes: 'Mayflower passenger (1620). The only Mayflower passenger with prior New World experience — he survived the 1609 Sea Venture shipwreck in Bermuda, spent time at Jamestown, and arrived in Plymouth as an experienced colonist. He helped negotiate the 1621 treaty with Wampanoag chief Massasoit. The Sea Venture wreck is believed to have inspired Shakespeare\'s "The Tempest." Through his son Giles and the Smith line to Cape Sable Island, he is a direct ancestor of Ian and Ross Mulholland.',
+    created_at: '',
+  },
 ]
 
 // ─── RELATIONSHIPS ────────────────────────────────────────────────────────────
@@ -280,4 +381,28 @@ export const DEMO_RELATIONSHIPS: Relationship[] = [
   { id: 'r-jcon-jwilh',   person1_id: '28', person2_id: '26', relationship_type: 'parent-child' },
   { id: 'r-holsch-jwilh', person1_id: '29', person2_id: '26', relationship_type: 'parent-child' },
   { id: 'r-jcon-holsch',  person1_id: '28', person2_id: '29', relationship_type: 'spouse' },
+
+  // George Walker's parents
+  { id: 'r-harry-ida',     person1_id: '30', person2_id: '31', relationship_type: 'spouse' },
+  { id: 'r-harry-geo',     person1_id: '30', person2_id: '5',  relationship_type: 'parent-child' },
+  { id: 'r-ida-geo',       person1_id: '31', person2_id: '5',  relationship_type: 'parent-child' },
+
+  // Gladys's father
+  { id: 'r-enos-gladys',   person1_id: '32', person2_id: '4',  relationship_type: 'parent-child' },
+
+  // Enos Lock Smith's parents
+  { id: 'r-josh-bertha',   person1_id: '33', person2_id: '34', relationship_type: 'spouse' },
+  { id: 'r-josh-enos',     person1_id: '33', person2_id: '32', relationship_type: 'parent-child' },
+  { id: 'r-bertha-enos',   person1_id: '34', person2_id: '32', relationship_type: 'parent-child' },
+
+  // Smith line — Cape Sable Island
+  { id: 'r-thomas-josh',   person1_id: '35', person2_id: '33', relationship_type: 'parent-child' },
+  { id: 'r-james-thomas',  person1_id: '36', person2_id: '35', relationship_type: 'parent-child' },
+  { id: 'r-arch-james',    person1_id: '37', person2_id: '36', relationship_type: 'parent-child' },
+
+  // Mayflower line (2 unknown intermediate generations between Samuel and Archelaus, compressed here)
+  { id: 'r-sam-arch',      person1_id: '38', person2_id: '37', relationship_type: 'parent-child' },
+  { id: 'r-sam-mary',      person1_id: '38', person2_id: '39', relationship_type: 'spouse' },
+  { id: 'r-giles-mary',    person1_id: '40', person2_id: '39', relationship_type: 'parent-child' },
+  { id: 'r-stephen-giles', person1_id: '41', person2_id: '40', relationship_type: 'parent-child' },
 ]

@@ -135,6 +135,47 @@ export const CONTEXT: Record<string, string[]> = {
     'Her Römer cousins\' service in America is one of the most remarkable threads in the family story.',
   ],
 
+  // ── Harold "Harry" Walker (c.1890–) — ID '30'
+  '30': [
+    'Born Harold Burton in East Boston around 1890 — the waterfront neighborhood shaped by successive waves of immigration and the trades of the harbor.',
+    'At some point in the 1920s he legally changed his surname from Burton to Walker — the reasons remain entirely undocumented, one of the enduring mysteries in the family history.',
+    'East Boston in the early 20th century was a neighborhood in constant flux: Prohibition, the Depression, and the rise of Boston machine politics all left their mark.',
+    'His son George grew up as George Walker — and the Walker name passed forward through Lynn Walker to Ian and Ross Mulholland.',
+  ],
+
+  // ── Enos Lock Smith (c.1882–) — ID '32'
+  '32': [
+    'Born on Cape Sable Island, Nova Scotia — a small, exposed island at the southwestern tip of Nova Scotia, home to a tight-knit fishing community of New England origin.',
+    'Cape Sable Island was settled in the 1760s by New England Protestants who accepted British land grants after the forced expulsion of the Acadian people.',
+    'The island community was predominantly Methodist, maintaining religious and cultural ties to its New England roots through the 19th and early 20th centuries.',
+    'His daughter Gladys Mildred emigrated from Cape Sable Island to Massachusetts, carrying the island\'s traditions — and, through the Smith line, a Mayflower heritage — into the Mulholland family.',
+  ],
+
+  // ── Archelaus Smith (1734–1821) — ID '37'
+  '37': [
+    'Born in Massachusetts in 1734 — his generation grew up in the confident years of British colonial expansion, before the Revolution upended everything.',
+    'The British Expulsion of the Acadians (1755–1764) forcibly removed approximately 10,000 French-speaking Catholics from Nova Scotia; New England Protestants were then offered land grants to replace them.',
+    'Archelaus accepted a land grant and sailed to Cape Sable Island, becoming one of its founding settlers — a decision whose consequences echoed for 250 years.',
+    'By his death in 1821 at age 87, he had 97 grandchildren and 219 great-grandchildren — a founding patriarch whose descendants populated Cape Sable Island for generations.',
+    'His ancestry traced back through the Hopkins line to the Mayflower (1620), connecting Plymouth Colony to Nova Scotia to Massachusetts in a single family arc.',
+  ],
+
+  // ── Giles Hopkins (c.1607–1690) — ID '40'
+  '40': [
+    'Born around 1607, possibly during the Mayflower voyage itself — one of the youngest members of the original Plymouth landing.',
+    'The first winter of Plymouth Colony (1620–21) killed nearly half the settlers; Giles grew up in a community forged by extreme hardship and improbable survival.',
+    'He came of age during the decades when Plymouth Colony transformed from a desperate experiment into a stable society, and later settled in Eastham on Cape Cod.',
+    'His descendants, through the Smith line, eventually migrated from Cape Cod to Cape Sable Island, Nova Scotia — following the same Atlantic coastline two generations later.',
+  ],
+
+  // ── Stephen Hopkins (c.1581–1644) — ID '41'
+  '41': [
+    'Survived the 1609 Sea Venture shipwreck in Bermuda — the disaster that inspired Shakespeare\'s "The Tempest." The only Mayflower passenger with prior experience in the Americas.',
+    'Signed the Mayflower Compact (1620), one of the foundational documents of American self-governance, establishing the principle that political authority derives from the consent of the governed.',
+    'Helped negotiate the 1621 treaty with Wampanoag chief Massasoit — a diplomatic achievement that gave Plymouth Colony time to stabilize during its most vulnerable years.',
+    'He is a confirmed ancestor of tens of millions of living Americans; through the Hopkins-Smith-Cape Sable Island line, he is a direct ancestor of Ian and Ross Mulholland.',
+  ],
+
   // ── Johann Conrad Freisen (1742–1804) — ID '28'
   '28': [
     'Born during the reign of Frederick the Great of Prussia, whose wars reshaped the map of central Europe.',
