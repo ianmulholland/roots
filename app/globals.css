@@ -47,28 +47,9 @@ body {
 }
 
 /* Family tree */
-.rd3t-node circle,
-.rd3t-leaf-node circle {
-  fill: var(--accent);
-  stroke: var(--surface);
-  stroke-width: 3;
-  cursor: pointer;
-  transition: r 0.15s;
-}
-.rd3t-node circle:hover { r: 18px; }
-.rd3t-label__title {
-  fill: var(--fg);
-  font-family: system-ui, sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-}
-.rd3t-label__attributes {
-  fill: var(--muted);
-  font-family: system-ui, sans-serif;
-  font-size: 11px;
-}
-.rd3t-link {
-  stroke: var(--border-strong);
+.rd3t-link,
+.tree-path {
+  stroke: rgba(255,255,255,0.12);
   stroke-width: 1.5;
   fill: none;
 }
