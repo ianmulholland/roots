@@ -12,14 +12,14 @@ export default function Home() {
       {/* Hero */}
       <div style={{ padding: '64px 24px 40px', textAlign: 'center', maxWidth: '640px', margin: '0 auto' }}>
         <p style={{ fontSize: '0.75rem', letterSpacing: '0.2em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '16px', fontWeight: 600 }}>
-          Mulholland · Walker · Freses
+          Mulholland · Walker · Smith · Frese
         </p>
         <h1 style={{ fontSize: 'clamp(2.2rem, 5vw, 3.5rem)', fontWeight: 800, lineHeight: 1.1, color: 'var(--fg)', marginBottom: '16px', letterSpacing: '-0.02em' }}>
           Four families.<br />
           <span style={{ color: 'var(--accent)' }}>One story.</span>
         </h1>
         <p style={{ color: 'var(--muted)', fontSize: '1rem', lineHeight: 1.6 }}>
-          From Berlin and Waldeck to Chicago and Boston — explore the people who made your family.
+          From the Mayflower and the Irish Famine to Waldeck and East Boston — 450 years of family, converging in Winthrop, Massachusetts.
         </p>
       </div>
 
@@ -46,8 +46,10 @@ export default function Home() {
       {/* Quick links */}
       <div style={{ display: 'flex', gap: '12px', padding: '0 24px 48px', justifyContent: 'center', flexWrap: 'wrap' }}>
         {[
+          { href: '/heritage', label: 'Our Heritage' },
+          { href: '/timeline', label: '450-Year Timeline' },
+          { href: '/origins', label: 'Migration Map' },
           { href: '/tree', label: 'Family Tree' },
-          { href: '/map', label: 'Ancestor Map' },
           { href: '/people', label: 'All Ancestors' },
         ].map(({ href, label }) => (
           <Link key={href} href={href} style={{

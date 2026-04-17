@@ -4,8 +4,10 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const links = [
+  { href: '/heritage', label: 'Heritage' },
+  { href: '/timeline', label: 'Timeline' },
+  { href: '/origins', label: 'Origins' },
   { href: '/tree', label: 'Tree' },
-  { href: '/map', label: 'Map' },
   { href: '/people', label: 'Ancestors' },
 ]
 
